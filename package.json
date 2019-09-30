@@ -1,0 +1,20 @@
+{
+  "name": "Nico_RealtimeGame(JSNodeSocketGulp)",
+  "version": "1.0.0",
+  "description": "Realtime Drawing Game built with SocketIO, Gulp and Node",
+  "main": "index.js",
+  "repository": "https://github.com/DasolPark/guess-mind.git",
+  "author": "Dasol Park <dasol.park615@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node src/server.js"
+  }
+}
